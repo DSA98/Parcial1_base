@@ -1,0 +1,15 @@
+Feedback:
+
+1. Estructuras de Datos (0.0/2.5)
+ * Ninguna prueba pasa.
+ * No se presentó solución para ninguna de las funciones.
+
+2. OOP (1.5/2.5)
+ * Actor.cs no implementa la interfaz ICharacter. Esto hace que no se pueda mover.
+ * Hero.CurrentAtk y Hero.CurrentDef  deben 'retornar' el valor de los parámetros, no 'imprimirlos'
+ * Hero.Equip() no satisface el enunciado. Esto no 'equipa' nada, sino que imprime valores.
+ * Si bien Hero y Enemy implementan la interfaz ICharacter, no es correcto que lo hagan por separado, puesto que ambas heredan de Actor
+ * Por qué está definido ParamMod por separado en Weapon y Armor, si es de cualquier Gear? Además, esto no es una función.
+ * No hay un límite global para cuánto puede cambiar el parámetro con el Gear equipado.
+
+Total: 1.5/5.0
